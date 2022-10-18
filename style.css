@@ -238,23 +238,17 @@ color: #000000;
 
 .boton1 {
     
-    justify-content: center;
     position: absolute;
     width: 128.78px;
     height: 48.52px;
     left: 118px;
     top: 754px;
-    
     background: #00669F;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-    
-    
-    text-align: center;
-    
     color: #F3F3F3;
 
 }
@@ -267,17 +261,12 @@ color: #000000;
     height: 48.52px;
     left: 447px;
     top: 754px;
-    
     background: #00669F;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-   
-    
-    text-align: center;
-    
     color: #F3F3F3;
 }
 
@@ -288,19 +277,14 @@ color: #000000;
     width: 128.78px;
     height: 48.52px;
     left: 777px;
-    top: 755px;
-    
+    top: 755px;   
     background: #00669F;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-
-
-text-align: center;
-
-color: #F3F3F3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F3F3F3;
 
 
 }
@@ -363,9 +347,30 @@ color: #F3F3F3;
 
 }
 
+.boton1  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton2  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton3  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
 
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Roboto';
     text-align: center;
     color: white;
@@ -374,35 +379,6 @@ footer {
     left: 0px;
     top: 972px;
     background-color: #00669F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-a.button{
-
-    width: 82px;
-    height: 82px;
-    background-color:#00669F;
-    border-radius: 50%;
-    position: absolute;
-    color: white;
-    text-align: center;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 62px;
-    line-height: 73px;
-    color: #FFFFFF;
-   
- } 
-
- .boton {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    flex-direction: row; 
-    margin-left: 10%;
-    margin-right: 10%;
-    bottom: -350px;
-    padding: 5%;
-    }
